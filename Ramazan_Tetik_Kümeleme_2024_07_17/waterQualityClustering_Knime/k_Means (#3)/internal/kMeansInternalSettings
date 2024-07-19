@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+    <entry key="dimensions" type="xint" value="8"/>
+    <entry key="ignoredColumns" type="xint" value="1"/>
+    <config key="clusterCoverage">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="1049"/>
+        <entry key="1" type="xint" value="1229"/>
+        <entry key="2" type="xint" value="88"/>
+    </config>
+    <config key="kMeansCluster0">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="0.6489799809342232"/>
+        <entry key="1" type="xdouble" value="7.452745471877977"/>
+        <entry key="2" type="xdouble" value="7.009723546234509"/>
+        <entry key="3" type="xdouble" value="0.5473164918970433"/>
+        <entry key="4" type="xdouble" value="0.7582459485224006"/>
+        <entry key="5" type="xdouble" value="10.715738798856053"/>
+        <entry key="6" type="xdouble" value="9.177176146641527"/>
+    </config>
+    <config key="kMeansCluster1">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="0.7007892595606185"/>
+        <entry key="1" type="xdouble" value="5.921594792514241"/>
+        <entry key="2" type="xdouble" value="7.283360455655001"/>
+        <entry key="3" type="xdouble" value="0.4962123677786812"/>
+        <entry key="4" type="xdouble" value="0.7575305126118789"/>
+        <entry key="5" type="xdouble" value="24.225467860048823"/>
+        <entry key="6" type="xdouble" value="23.44635204774695"/>
+    </config>
+    <config key="kMeansCluster2">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="0.7261363636363637"/>
+        <entry key="1" type="xdouble" value="5.776704545454546"/>
+        <entry key="2" type="xdouble" value="7.282954545454545"/>
+        <entry key="3" type="xdouble" value="0.5617613636363638"/>
+        <entry key="4" type="xdouble" value="0.7844318181818185"/>
+        <entry key="5" type="xdouble" value="20.839772727272727"/>
+        <entry key="6" type="xdouble" value="-15.035353537056796"/>
+    </config>
+    <config key="FeatureNames">
+        <entry key="array-size" type="xint" value="8"/>
+        <entry key="0" type="xstring" value="Salinity (ppt)"/>
+        <entry key="1" type="xstring" value="DissolvedOxygen (mg/L)"/>
+        <entry key="2" type="xstring" value="pH"/>
+        <entry key="3" type="xstring" value="SecchiDepth (m)"/>
+        <entry key="4" type="xstring" value="WaterDepth (m)"/>
+        <entry key="5" type="xstring" value="WaterTemp (C)"/>
+        <entry key="6" type="xstring" value="AirTemp (C)"/>
+        <entry key="7" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
